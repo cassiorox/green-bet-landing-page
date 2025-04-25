@@ -10,10 +10,10 @@ const LandingPage = () => {
       <section className="container mx-auto px-4 py-12 md:py-20">
         <div className="text-center mb-8">
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-4">
-            Apostas Esportivas com Especialistas
+            Apostas esportivas com especialistas
           </h1>
           <p className="text-xl text-green-100 mb-8">
-            Junte-se à comunidade líder em palpites certeiros e gestão de banca
+            Junte-se à comunidade líder em palpites certeiros
           </p>
         </div>
 
@@ -46,12 +46,12 @@ const LandingPage = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto mb-16">
           <div className="flex flex-col items-center text-center text-white p-6 rounded-lg bg-green-800/50">
             <Shield className="w-12 h-12 mb-4 text-green-400" />
-            <h3 className="text-xl font-semibold mb-2">Apostas Seguras</h3>
-            <p className="text-green-100">Análises profissionais e gestão de risco</p>
+            <h3 className="text-xl font-semibold mb-2">Apostas seguras</h3>
+            <p className="text-green-100">Análises profissionais</p>
           </div>
           <div className="flex flex-col items-center text-center text-white p-6 rounded-lg bg-green-800/50">
             <ShieldCheck className="w-12 h-12 mb-4 text-green-400" />
-            <h3 className="text-xl font-semibold mb-2">Suporte 24/7</h3>
+            <h3 className="text-xl font-semibold mb-2">Suporte das 07h ás 22h</h3>
             <p className="text-green-100">Atendimento humano personalizado</p>
           </div>
           <div className="flex flex-col items-center text-center text-white p-6 rounded-lg bg-green-800/50">
@@ -79,7 +79,7 @@ const LandingPage = () => {
               {
                 step: "3",
                 title: "Aposte com Segurança",
-                description: "Siga nossa gestão de banca profissional"
+                description: "Siga nossas análises"
               }
             ].map((item, index) => (
               <div key={index} className="text-center text-white">
@@ -103,7 +103,7 @@ const LandingPage = () => {
             <span className="text-sm">18+</span>
             <p>Aposte com responsabilidade</p>
           </div>
-          <p className="text-sm">© 2025 DrSports. Todos os direitos reservados.</p>
+          <p className="text-sm">© 2025 DP Sports. Todos os direitos reservados.</p>
         </footer>
       </section>
     </div>
